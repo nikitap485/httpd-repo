@@ -1,5 +1,10 @@
 pipeline{
-   agent any
+    agent {
+		label {
+		label "main"
+		}
+
+}
    stages {
      stage ("Install required packages"){
 	 steps

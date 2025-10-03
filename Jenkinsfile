@@ -2,6 +2,7 @@ pipeline{
     agent {
 		label {
 		label "main"
+		customWorkspace "/mnt/jenkins-slave1"
 		}
 
 }
